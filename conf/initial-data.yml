@@ -1,19 +1,19 @@
 # Test data
 
-CollegeStudent(曾楠嵘):
-    name:            曾楠嵘
+CollegeStudent(木山):
+    name:            木山
     tuitionFee:      5800.00
     courseNum:    24
     averageSore:  3.70
      
-CollegeStudent(李婷):
-    name:            李婷
+CollegeStudent(Ting):
+    name:            Ting
     tuitionFee:      5800.99
     courseNum:    25
     averageSore:  4.00
  
-CollegeStudent(袁方正):
-    name:            袁方正
+CollegeStudent(方正):
+    name:            方正
     tuitionFee:      5800.00
     courseNum:    36
     averageSore:  3.50
