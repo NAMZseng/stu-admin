@@ -8,6 +8,7 @@
  - 实现多种方式检索(姓名/学号);
  - 创建学生信息时，学号自动生成;
  - 列表内容国际化;
+ 
 `注`：本系统的网页样式参考自Play framework官网的教学案例**Yabe**
 https://www.playframework.com/documentation/1.5.x/guide3
 
