@@ -1,0 +1,32 @@
+# Test data
+
+CollegeStudent(曾楠嵘):
+    name:            曾楠嵘
+    tuitionFee:      5800.00
+    courseNum:    24
+    averageSore:  3.70
+     
+CollegeStudent(李婷):
+    name:            李婷
+    tuitionFee:      5800.99
+    courseNum:    25
+    averageSore:  4.00
+ 
+CollegeStudent(袁方正):
+    name:            袁方正
+    tuitionFee:      5800.00
+    courseNum:    36
+    averageSore:  3.50
+    
+  
+Postgraduate(李四):
+    name:            李四
+    tuitionFee:      6800.00
+    paperName:   基于Hadoop、Spark的关联规则开发
+    pleaScore:       95.00
+    
+Postgraduate(张三):
+    name:            张三   
+    tuitionFee:      6800.00
+    paperName:   物联网5G应用
+    pleaScore:       97.00

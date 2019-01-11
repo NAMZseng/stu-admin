@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>User</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        #{get 'moreStyles' /}
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/main.css'}" />
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}" />
+        <script src="@{'/public/javascripts/jquery-1.5.2.min.js'}"></script>
+        <script src="@{'/public/javascripts/jquery.tools-1.2.5.toolbox.expose.min.js'}"></script>
+    </head>
+    <body id="admin">
+        <div id="header">
+            <div id="logo">
+                Welcome <span>${user}</span>
+            </div>
+            <ul id="tools">
+                <li>
+                    <a href="@{Secure.logout()}">Log out</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="main">
+        
+            <ul id="adminMenu">
+                </li>
+                    <li class="${request.controller == 'CollegeStudents' ? 'selected' : ''}">
+                        <a href="@{CollegeStudents.list()}">CollegeStudents</a>
+                    </li>
+                    <li class="${request.controller == 'Postgraduates' ? 'selected' : ''}">
+                        <a href="@{Postgraduates.list()}">Postgraduates</a>
+                    </li>
+                    <li class="${request.controller == 'Security' ? 'selected' : ''}">
+                        <a href="@{Secure.logout()}">Exit</a>
+                    </li>
+            </ul>
+        </div>
+         #{doLayout /}
+        
+        <p id="footer">
+             A JavaEE homework built with the 
+            <a href="https://www.playframework.com/getting-started">Play framework</a>
+              By Nanrong_Zeng.
+        </p>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+# You can specialize this file for each language.
+# For example, for French create a messages.fr file
+#
+
+secure.signin=Log in now
+
+name=姓名
+studentId=学号
+tuitionFee=学费
+paperName=课题名
+pleaScore=答辩成绩
+public int courseNum=选课数
+averageSore=平均分

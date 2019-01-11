@@ -1,0 +1,43 @@
+<html>
+<head>
+<title>Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" media="screen"
+	href="@{'/public/stylesheets/main.css'}" />
+<link rel="shortcut icon" type="image/png"
+	href="@{'/public/images/favicon.png'}" />
+<script src="@{'/public/javascripts/jquery-1.5.2.min.js'}"></script>
+<script
+	src="@{'/public/javascripts/jquery.tools-1.2.5.toolbox.expose.min.js'}"></script>
+</head>
+<body>
+	<div id="header">
+		<div id="logo">StuAdmin System.</div>
+		<ul id="tools">
+			<li><a href="@{User.index()}">Log in</a></li>
+		</ul>
+		<div id="title">
+			<div>"StuAdmin" 是一个简易的学生成绩管理平台，已实现的功能如下：</div>
+			&nbsp;
+			<div>1.批量导入学生信息。</div>
+			<div>2.登陆安全控制：提供root和vistor两类用户，</div>
+			<div>3.信息操作授权: 仅root可以对系统各类信息进行修改，vistor仅可查看检索信息</div>
+			<div>4.实现多种方式检索：姓名/学号</div>
+			<div>5.创建学生信息时，学号自动生成</div>
+			<div>6.列表内容国际化</div>
+			&nbsp;
+			<div>--------------------------------------------------------------------------------------</div>
+			<div>
+				注：本系统的网页样式参考自Play framework官网的教学案例<a
+					href="https://www.playframework.com/documentation/1.5.x/guide3">Yabe.</a>
+			</div>
+
+		</div>
+	</div>
+	<p id="footer">
+		A JavaEE homework built with the <a
+			href="https://www.playframework.com/getting-started">Play
+			framework</a> By Nanrong_Zeng.
+	</p>
+</body>
+</html>
